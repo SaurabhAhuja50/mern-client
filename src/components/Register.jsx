@@ -25,7 +25,7 @@ const Register = () => {
     }
 
     try {
-      const res = await axios.post("http://localhost:5000/api/register", {
+      const res = await axios.post("https://mern-auth-app-production.up.railway.app/api/register", {
         firstName,
         lastName,
         mobile,
